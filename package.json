@@ -1,0 +1,29 @@
+{
+  "name": "hubot-checklist-ninja",
+  "version": "0.0.0",
+  "description": "A hubot script for https://checklist.ninja",
+  "scripts": {
+    "postinstall": { "./node_modules/.bin/hubot-script-installer" },
+    "uninstall"  : { "./node_modules/.bin/hubot-script-installer --uninstall" }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markhuge/hubot-checklist-ninja.git"
+  },
+  "keywords": [
+    "hubot",
+    "checklist",
+    "devops",
+    "ninja"
+  ],
+  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markhuge/hubot-checklist-ninja/issues"
+  },
+  "homepage": "https://github.com/markhuge/hubot-checklist-ninja",
+  "dependencies": {
+    "checklist-ninja": "^0.1.0",
+    "hubot-script-installer": "0.0.0"
+  }
+}
